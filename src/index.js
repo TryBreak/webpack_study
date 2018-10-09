@@ -2,8 +2,8 @@ import _ from 'lodash';
 import './style.css';
 import icon from './icon.jpg';
 import $ from 'jquery';
-
-console.log( icon )
+import Data from './data.xml';
+console.log(Data);
 
 
 $("body").append($("<div class='hello'> <div/>"));
