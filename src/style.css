@@ -1,4 +1,10 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./font.ttf');
+}
+
 .hello {
   color: red;
+  font-family: 'MyFont';
   background: url('./icon.jpg');
 }
